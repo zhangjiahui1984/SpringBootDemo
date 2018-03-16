@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: grod
+
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/dbgirl
+    driver-class-name: com.mysql.jdbc.Driver
+    data-username: root
+    data-password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
